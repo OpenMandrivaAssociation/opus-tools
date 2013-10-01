@@ -8,6 +8,7 @@ Url:		http://opus-codec.org/
 Source0:	http://downloads.xiph.org/releases/opus/%{name}-%{version}.tar.gz
 BuildRequires:	pkgconfig(opus)
 BuildRequires:	pkgconfig(vorbis)
+BuildRequires:	pkgconfig(flac)
 
 %description
 This packages provides various tools to decode & encode files with the Opus
