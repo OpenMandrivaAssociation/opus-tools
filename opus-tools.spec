@@ -1,7 +1,7 @@
 Summary:	Opus codec tools
 Name:		opus-tools
 Version:	0.1.6
-Release:	1
+Release:	2
 Source0:	http://downloads.xiph.org/releases/opus/%{name}-%{version}.tar.gz
 URL:		http://opus-codec.org/
 License:	BSD
