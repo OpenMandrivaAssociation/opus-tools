@@ -1,7 +1,7 @@
 Summary:	Opus codec tools
 Name:		opus-tools
-Version:	0.1.8
-Release:	3
+Version:	0.1.9
+Release:	1
 License:	BSD
 Group:		Sound
 Url:		http://opus-codec.org/
@@ -31,4 +31,3 @@ technology from Skype's SILK codec and Xiph.Org's CELT codec.
 %doc COPYING
 %{_bindir}/*
 %{_mandir}/man1/*
-

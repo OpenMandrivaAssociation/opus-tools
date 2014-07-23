@@ -1,5 +1,6 @@
 removed_sources:
   opus-tools-0.1.6.tar.gz: 305eb5eed76ddc0b5f12605a8b549638afc15885
   opus-tools-0.1.7.tar.gz: 9550bebdea884ee545ff6d556476209f76b28242
-sources:
   opus-tools-0.1.8.tar.gz: 71e3cf393399af0231d86434923093ca79eea8ab
+sources:
+  opus-tools-0.1.9.tar.gz: 03551ec3b206288e93a2f2bb18768a5a9e033206
