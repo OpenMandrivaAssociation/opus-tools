@@ -1,7 +1,7 @@
 Summary:	Opus codec tools
 Name:		opus-tools
 Version:	0.1.10
-Release:	1
+Release:	2
 License:	BSD
 Group:		Sound
 Url:		http://opus-codec.org/
