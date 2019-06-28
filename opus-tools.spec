@@ -1,7 +1,7 @@
 Summary:	Opus codec tools
 Name:		opus-tools
-Version:	0.1.10
-Release:	3
+Version:	0.2
+Release:	1
 License:	BSD
 Group:		Sound
 Url:		http://opus-codec.org/
@@ -9,6 +9,7 @@ Source0:	http://downloads.xiph.org/releases/opus/%{name}-%{version}.tar.gz
 BuildRequires:	pkgconfig(opus)
 BuildRequires:	pkgconfig(vorbis)
 BuildRequires:	pkgconfig(flac)
+BuildRequires:	pkgconfig(libopusenc)
 
 %description
 This packages provides various tools to decode & encode files with the Opus
@@ -21,7 +22,7 @@ technology from Skype's SILK codec and Xiph.Org's CELT codec.
 %setup -q
 
 %build
-%configure2_5x
+%configure
 %make
 
 %install
