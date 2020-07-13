@@ -10,6 +10,7 @@ BuildRequires:	pkgconfig(opus)
 BuildRequires:	pkgconfig(vorbis)
 BuildRequires:	pkgconfig(flac)
 BuildRequires:	pkgconfig(libopusenc)
+BuildRequires:	pkgconfig(opusfile)
 
 %description
 This packages provides various tools to decode & encode files with the Opus
@@ -19,14 +20,14 @@ the Internet. It is designed by the IETF Codec Working Group and incorporates
 technology from Skype's SILK codec and Xiph.Org's CELT codec.
 
 %prep
-%setup -q
+%autosetup -p1
 
 %build
 %configure
-%make
+%make_build
 
 %install
-%makeinstall_std
+%make_install
 
 %files
 %doc COPYING
