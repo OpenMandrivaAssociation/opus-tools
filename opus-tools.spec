@@ -4,7 +4,7 @@ Version:	0.2
 Release:	3
 License:	BSD
 Group:		Sound
-Url:		http://opus-codec.org/
+Url:		https://opus-codec.org/
 Source0:	http://downloads.xiph.org/releases/opus/%{name}-%{version}.tar.gz
 BuildRequires:	pkgconfig(opus)
 BuildRequires:	pkgconfig(vorbis)
