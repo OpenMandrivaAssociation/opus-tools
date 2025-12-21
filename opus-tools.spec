@@ -6,6 +6,11 @@ License:	BSD
 Group:		Sound
 Url:		https://opus-codec.org/
 Source0:	http://downloads.xiph.org/releases/opus/%{name}-%{version}.tar.gz
+BuildRequires:	autoconf
+BuildRequires:	automake
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
+BuildRequires:	make
 BuildRequires:	pkgconfig(opus)
 BuildRequires:	pkgconfig(vorbis)
 BuildRequires:	pkgconfig(flac)
